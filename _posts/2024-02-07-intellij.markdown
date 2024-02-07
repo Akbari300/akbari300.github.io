@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Intellij"
+date:   2024-01-18 13:41:39 -0800
+categories: jekyll update
+---
+
+![Intellij logo](/assets/Intellij.png)
+
+### Shortcuts
+
+
+`ctrl + tab`  switch between open files
+
+`alt + insert`  create new class, package, file ...
+
+`fn + home`  go to begin of line
+
+`fn + end`  go to end of line 
+
+`fn + pgUp`  go to begin of file 
+
+`fn + pgDown`  go to end of file 
+
+`ctrl + end`  skip one word to the left 
+
+`cltr + home`  skip one word to the right
+
+`alt + pgUp`  move to upper method 
+
+`alt + pgDown`  move to down method 
+
+`ctrl + f12` show to class structur 
+
+`shift + home/end`  select letter by letter 
+
+`shift + ctrl + home/end`  select word by word 
+
+`ctrl + w`  select select more and more code
+
+`ctrl + d` duplicate the line 
+
+`ctrl + shift`  pgUp/down = Move line/method up and down
+
+`ctrl + shift + z`  undo
+
+`ctrl + shift + f10` run the test 
+
+`alt + f12`  open terminal in Intelliji
+
+`ctrl + y` delete entire line
