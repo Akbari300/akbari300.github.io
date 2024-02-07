@@ -1,0 +1,227 @@
+---
+layout: post
+title:  "VimIdea"
+date:   2024-01-18 13:41:39 -0800
+categories: jekyll update
+---
+
+![car image](/assets/Vim_Logo.jpg)
+[Moving cursors](#moving-cursors)
+
+[File](#file)
+
+[Motion](#motion)
+
+[Append](#append)
+
+[Delete](#delete)
+
+[Undo](#undo)
+
+[Change Operator](#change-operator)
+
+[Matching Parentheses Search](#matching-parentheses-search)
+
+[Substitute](#substitute)
+
+[Open](#open)
+
+[Replace](#replace)
+
+[Select Copy Past](#select-copy-and-past)
+
+[Selection Text](#selection-text)
+
+[Save current file to a text](#save-current-text-to-a-file)
+
+[Execute an external command](#execute-an-external-command)
+
+[Retrieve and Merging files](#retrieveing-and-merging-files)
+
+[Search command](#search-command)
+
+[Cursor location and file status](#cursor-location-and-file-status)
+
+[Set option](#set-option)
+
+[project bar](#project-bar)
+
+[Join and split lines](#join-and-split-lines)
+
+[Command Completion](#command-completion)
+
+[customize commands](#customize-command)
+#### Moving cursors 
+{% highlight python %}
+              k
+
+              |
+              |
+      h  ------------ l
+              |
+              |
+             
+              j
+
+{% endhighlight %}
+
+#### File
+ `:q!` quit without save 
+
+ `:wq` save and quit 
+
+
+
+#### Motion
+
+ `e` end word including last character 
+
+ `w` until beginning of next word excluding 1st letter 
+
+ `b` begin of previous word 
+
+ `ge` backword to the end of previous word 
+
+ `$` end of the line 
+
+ `0` start of the line 
+
+#### Append 
+
+‍‍`a` insert text after cursor
+
+`A` insert text in the end of the line 
+
+
+#### Delete
+`dw` delete a word
+
+`d$` delet end of the line
+
+`d2w` delete 2 words
+
+`d2b` delete 2 words backword
+
+`dd` delete a line
+
+`2dd` delete 2 lines 
+
+#### Undo 
+`u` undo the lat command
+
+`U` undo the whole line 
+
+#### Change Operator 
+`ce` change until the end of word 
+
+`cc` change for the whole line 
+
+`c$` change until the end of the line 
+
+#### Matching Parentheses Search 
+`%` find the matching parentheses
+
+#### Substitute 
+`:s/old/new` only substitute one occurrence
+
+`:s/old/new/g` change for the whole line 
+
+`:%s/old/new/g` change for the whole file 
+
+`:%s/old/new/gc` change for the whole file with propmpt wheather to substitute or not
+
+#### Open 
+`o` open a line below 
+
+`O` open a line above 
+
+#### Replace 
+`rx` replace x 
+
+`R` replace more than one characters 
+
+#### Select, Copy and Past 
+`v` select the text
+
+`y` copy the selected text
+
+`p` past the text 
+
+#### Selection Text
+`v` visual mode 
+
+`v :w filename` save the selected in a file 
+
+#### Save current Text to a file 
+`:w filename` save all changes to a file 
+
+#### Execute an external command
+`:!command` to execute command 
+
+#### Retrieveing and Merging files 
+`:r filename` retrieve and merge filenme to current file 
+
+`:r !ls` merge the output of `ls` command to current file 
+
+#### Search Command 
+`/search_phrase` 
+
+`n` search for next down 
+
+`N` search backword 
+
+`ctrl + o` go back where you come from 
+
+`ctrl + i` go forward 
+
+#### Cursor location and file status 
+`ctrl + g` show file status and line number
+
+`G` end of the file 
+
+`gg` begin of the file 
+
+`line number + G` move to that line number
+
+
+### Set Option
+`/searchphres\c` search ignore case 
+
+`:set ic` ignore case for all search 
+
+`:set noic` disable ignoring the ingore case search 
+
+`:set hls is` set hightlight search for all 
+
+`:set nohls` disable highlight
+
+#### Project bar 
+`command + 1` project folder 
+
+`l` open and close the folder
+
+`h` jump to parent folder 
+
+
+#### Join and split lines
+`shift + j` join two lines
+
+`r <enter>` split the line 
+
+#### Command Completion
+`<command> ctrl + d` complet the command 
+
+#### Customize command
+`ctr + k`  commit 
+
+`space + h`  previousTab
+
+`space + l` next tab
+
+`space + i` generate
+
+`space + e`  go to next error
+
+`space + n` rename element
+
+`space + q`  hide active window
