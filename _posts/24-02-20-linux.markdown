@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Linux"
+date:   2024-02-20 13:41:39 -0800
+categories: jekyll update
+---
+
+![car image](/assets/linux.jpg)
+
+#### List directories
+
+{% highlight shell  %}
+ls -l
+{% endhighlight %}
+
+#### Print working directory
+{% highlight shell  %}
+pwd
+{% endhighlight %}
+
+#### Navigate
+{% highlight shell  %}
+cd <folder name>
+{% endhighlight %}
+
+#### Create directory 
+{% highlight shell  %}
+mkdir <folder name>
+{% endhighlight %}
+
+#### Move | Rename file 
+{% highlight shell  %}
+mv <file path> <destination path>
+{% endhighlight %}
+
+#### Copy file 
+{% highlight shell  %}
+cp <sources path> <destination path>
+{% endhighlight %}
+
+#### Delete file | directory
+{% highlight shell  %}
+rm <file name
+{% endhighlight %}
+
+#### Create new
+{% highlight shell  %}
+touch <file name>
+{% endhighlight %}
+
+#### Create a link to another file 
+{% highlight shell  %}
+ln -s <file name> <linked file name>
+{% endhighlight %}
+
+#### Display the content of the file 
+{% highlight shell  %}
+cat <file name>
+{% endhighlight %}
+
+#### Print text
+{% highlight shell  %}
+echo <text>
+{% endhighlight %}
